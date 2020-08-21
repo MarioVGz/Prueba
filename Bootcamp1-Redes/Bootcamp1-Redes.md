@@ -1,4 +1,4 @@
-﻿# Bootcamp de Redes 1
+# Bootcamp de Redes 1
 
   
 
@@ -64,11 +64,13 @@ Podemos encontrar las más típicas como lo son las siguientes: Ethernet, Wi Fi,
 
   
 
+![No se pudo cargar](./img/img.PNG)
+
 ![No se pudo cargar](./img/img1.PNG)
 
   
 
-Se marcó ens160, ya que es el nombre de la interfaz, el IP que es la inet, la netmask que es la máscara, Ethernet y Broadcast.
+Se agregaron los resultados de ingresar el comando tanto en la maquina local, como en la virtual de la ECCI, en este caso, se marcó enp0s3 y ens160 , ya que son los nombres de las interfaces, el IP que es la inet, la netmask que es la máscara, Ethernet y Broadcast.
 
   
 
@@ -90,9 +92,13 @@ Una red es un conjunto de dispositivos interconectados entre sí a través de un
 
   
 
+![No se pudo cargar](./img/img.PNG)
+
 ![No se pudo cargar](./img/img1.PNG)
 
   
+Al no quedar muy claro, se decide ingresar los resultados de ambos, tanto de la maquina local como de la virtual.
+
 
 Es importante destacar que las direcciones IP que se usan como direcciones de red y de host no son fijas, por lo que las direcciones de red y host no se pueden determinar a menos que se disponga de más información.
 
@@ -102,9 +108,10 @@ Los primeros 24 bits (el número de unos de la máscara de subred) se identifica
 
   
 
-Dicho esto ultimo, al tener la dirección IP como 172.16.202.42 , y la máscara como 255.255.255.0 , para la interfaz de nombre ens160, la red a la que está conectada y el número de host corresponden a **172.16.202.0** y **0.0.0.42** respectivamente.
+Dicho esto ultimo, al tener la dirección IP como 10.0.2.15 para la máquina local , y la máscara como 255.255.255.0 , para la interfaz de nombre enp0s3, la red a la que está conectada y el número de host corresponden a **10.0.2.0** y **0.0.0.15** respectivamente.
 
-  
+Así mismo, al tener la dirección IP como 172.16.202.42 para la máquina virtual de la ECCI , y la máscara como 255.255.255.0 , para la interfaz de nombre ens160, la red a la que está conectada y el número de host corresponden a **172.16.202.0** y **0.0.0.42** respectivamente.
+
 
 ## Pregunta 3
 
